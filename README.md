@@ -1,20 +1,22 @@
 # Password-Manager
 Background:
-Password security is an essential component of cybersecurity. Safeguarding user passwords is critical in
-many applications, including personal accounts and enterprise systems, to protect sensitive information.
-The goal of this project is to develop a password manager that not only securely stores passwords but also
-encrypts them with a key, thereby increasing the security of saved credentials.
+
+Password security is an essential component of cybersecurity. Safeguarding user passwords is critical in many applications, including personal accounts and enterprise systems, to protect sensitive information.
+The goal of this project is to develop a password manager that not only securely stores passwords but also encrypts them with a key, thereby increasing the security of saved credentials.
+
 Objectives:
 The following are the main objectives of the password manager:
 a) Create a password manager that saves and encrypts user credentials securely.
 b) Use strong encryption mechanisms to safeguard passwords.
 c) Include features for adding, retrieving, and modifying passwords.
 d) Implement a secure and user-friendly command-line interface (CLI) for interaction.
+
 Scope:
 The project is to develop a password manager that securely stores and encrypts the password given by
 the user. It uses a command line interface (CLI) to take inputs like adding a new user and passwords and
 retrieve and update passwords. The passwords are stored in a text file with encryption applied for added
 security.
+
 Implementation:
 The key features of the password manager include:
 a) SHA-256 hashing and bitwise XOR encryption are used for password encryption.
@@ -23,6 +25,8 @@ c) Retrieval of previously saved passwords for a specified username.
 d) Replacing old passwords with new ones.
 e) Safely save passwords in a text file.
 f) For each session, a random encryption key is generated.
+
+
 Components:
 The main components of the application are as follows:
 a) Encryption functions: These functions handle encryption and decrypt techniques using
@@ -30,11 +34,15 @@ cryptographic techniques.
 b) Password Management functions: These allow users to create, retrieve, and update passwords.
 c) Main Application Logic: A command line is included so that the user can provide an input through
 it.
+
+
 Scope:
 a) The goal of this project is to create a password management application that uses password
 encryption to increase security.
 b) Users can add, retrieve, and update passwords via the application's command-line interface (CLI).
 c) For further security, the passwords are stored in a text file that has been encrypted.
+
+
 Implementation:
 The key features of the password manager with encryption include:
 a) SHA-256 hashing and bitwise XOR encryption are used for password encryption.
@@ -43,6 +51,8 @@ c) Retrieve cached passwords for a specified username.
 d) Replacing old passwords with new ones.
 e) Secure storage of passwords in a text file.
 f) For each session, a random encryption key is generated.
+
+
 Components:
 The main components of the application are as follows:
 Libraries used:
